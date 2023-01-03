@@ -27,6 +27,14 @@ python3 -m http.server IP
 
 Make sure to edit the bash protect.sh script to avoid any issues i.e add your ip and port & also the name of your chattr binary location...
 <br>The script is a bit dirty so before running it, make sure you have another shell opened up so that you still have access to the machine
+## 2. Kill.sh
+This is a bash script to kill other player's shells
+<br> Just run the shell, if there are any tty shells available, it will show.
+<br> It will ask for how many shells to kill.
+<br> If any, type in the number of shells that are displayed on your screen.
+<br> Next, enter the pts number.
+<br> Enter the numbers until you finish the number of shells you entered and the script will end .
+
 
 ## My socials:
 <br>@ twitter: https://twitter.com/M3tr1c_root
